@@ -12,7 +12,7 @@ import pandas as pd
 import networkx as nx
 from pyvis.network import Network
 
-df=pd.read_csv(r"https://github.com/ayanatherate/WC2022finals.github.io/blob/main/Argentina_WC2022.csv")
+df=pd.read_csv(r"https://github.com/ayanatherate/WC2022finals.github.io/blob/main/Argentina_WC2022.csv",on_bad_lines='skip')
 
 got_net = Network(height="750px", width="100%", bgcolor="#222222", font_color="white")
 
