@@ -1,0 +1,22 @@
+,Minute,Player,Squad,xG,pxG,Outcome,Dist,Bod,Notes,Passer1,Event,Passer2,Event
+0,16,Dejan Lovren,hr Croatia,0.01,,Off Target,10,Head,,Josip Juranović,Pass (Live),Luka Modrić,Pass (Live)
+1,25,Enzo Fernández,ar Argentina,0.03,0.19,Saved,29,Right Foot,,Alexis Mac Allister,Pass (Live),Leandro Paredes,Pass (Live)
+2,31,Ivan Perišić,hr Croatia,0.03,,Off Target,18,Right Foot,,Mateo Kovačić,Pass (Live),Mario Pašalić,Pass (Live)
+3,34,Lionel Messi (pen),ar Argentina,0.79,0.98,Goal,13,Left Foot,,Julián Álvarez,Fouled,Enzo Fernández,Pass (Live)
+4,39,Julián Álvarez,ar Argentina,0.62,0.96,Goal,6,Right Foot,Volley,Nicolás Otamendi,Pass (Live),,
+5,41,Rodrigo De Paul,ar Argentina,0.06,,Blocked,26,Right Foot,,Alexis Mac Allister,Pass (Live),Enzo Fernández,Pass (Live)
+6,42,Alexis Mac Allister,ar Argentina,0.1,0.09,Saved,6,Head,,Lionel Messi,Pass (Dead),Rodrigo De Paul,Shot
+7,45,Luka Modrić,hr Croatia,0.06,,Blocked,28,Right Foot,,Andrej Kramarić,Pass (Live),Ivan Perišić,Pass (Live)
+8,45,Mario Pašalić,hr Croatia,0.1,,Off Target,3,Right Foot,,Luka Modrić,Pass (Live),Luka Modrić,Shot
+10,49,Leandro Paredes,ar Argentina,0.03,0.01,Saved,31,Right Foot,,Rodrigo De Paul,Pass (Live),Alexis Mac Allister,Pass (Live)
+11,58,Lionel Messi,ar Argentina,0.14,0.45,Saved,11,Left Foot,,Enzo Fernández,Pass (Live),Lionel Messi,Pass (Live)
+12,58,Mislav Oršić,hr Croatia,0.02,,Blocked,25,Right Foot,,Andrej Kramarić,Pass (Live),Mislav Oršić,Pass (Live)
+13,62,Dejan Lovren,hr Croatia,0.1,,Blocked,9,Head,,Luka Modrić,Pass (Dead),Luka Modrić,Fouled
+14,69,Julián Álvarez,ar Argentina,0.39,0.59,Goal,7,Right Foot,,Lionel Messi,Pass (Live),Lionel Messi,Dribble
+15,73,Ivan Perišić,hr Croatia,0.04,0.18,Saved,32,Left Foot,Free kick,Bruno Petković,Fouled,Mateo Kovačić,Pass (Live)
+16,75,Ivan Perišić,hr Croatia,0.01,,Off Target,36,Left Foot,,Luka Modrić,Pass (Live),Josip Juranović,Pass (Dead)
+17,78,Mislav Oršić,hr Croatia,0.03,,Off Target,18,Right Foot,,Ivan Perišić,Pass (Live),Ivan Perišić,Dribble
+18,83,Alexis Mac Allister,ar Argentina,0.19,,Off Target,13,Right Foot,Volley,Paulo Dybala,Pass (Live),Lionel Messi,Pass (Dead)
+19,89,Lovro Majer,hr Croatia,0.03,0.24,Saved,28,Left Foot,Deflected,Mateo Kovačić,Pass (Live),Bruno Petković,Pass (Live)
+20,90+3,Nikola Vlašić,hr Croatia,0.03,,Off Target,18,Left Foot,,Mateo Kovačić,Pass (Live),Josip Juranović,Pass (Live)
+21,90+5,Dejan Lovren,hr Croatia,0.04,,Off Target,30,Left Foot,,Mislav Oršić,Pass (Live),Bruno Petković,Pass (Live)
