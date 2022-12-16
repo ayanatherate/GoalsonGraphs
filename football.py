@@ -17,13 +17,15 @@ def got_func(physics):
 
 # set the physics layout of the network
   got_net.barnes_hut()
-  got_data = pd.read_csv("")
+  got_data = pd.read_csv("https://raw.githubusercontent.com/ayanatherate/WC2022_graph_viz/main/wc2022_CroArg.csv")
   #got_data = pd.read_csv("stormofswords.csv")
   #got_data.rename(index={0: "Source", 1: "Target", 2: "Weight"}) 
-  sources = got_data['Source']
-  targets = got_data['Target']
-  weights = got_data['Weight']
+ 
 
+  sources = got_data['Player']
+  targets = got_data['Passer1']
+  weights = got_data['xG']
+  
   edge_data = zip(sources, targets, weights)
 
   for e in edge_data:
