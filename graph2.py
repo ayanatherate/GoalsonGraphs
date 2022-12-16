@@ -43,7 +43,7 @@ except:
     path = '/html_files'
     got_net.save_graph(f'{path}/pyvis_graph.html')
     HtmlFile = open(f'{path}/pyvis_graph.html', 'r', encoding='utf-8')
-components.html(HtmlFile.read(), height=935,width=635)
+components.html(HtmlFile.read(), height=735,width=735)
 
 
      
