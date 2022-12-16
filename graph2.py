@@ -27,18 +27,23 @@ got_net.repulsion(node_distance=420,
                    spring_length=110,
                    spring_strength=0.10,
                    damping=0.95)
-got_data = df
-
-sources = got_data['Player']
-targets = got_data['Assists']
-weights = got_data['xG']
-edge_data = zip(sources, targets, weights)
 
 
 
-path = '/tmp'
-got_net.save_graph('pyvis_graph.html')
-HtmlFile = open(f'pyvis_graph.html', 'r', encoding='utf-8')
+
+
+
+try:
+    path = '/tmp'
+    got_net.save_graph(f'{path}/pyvis_graph.html')
+    HtmlFile = open(f'{path}/pyvis_graph.html', 'r', encoding='utf-8')
+
+    # Save and read graph as HTML file (locally)
+except:
+    path = '/html_files'
+    got_net.save_graph(f'{path}/pyvis_graph.html')
+    HtmlFile = open(f'{path}/pyvis_graph.html', 'r', encoding='utf-8')
 components.html(HtmlFile.read(), height=435)
+
 
      
