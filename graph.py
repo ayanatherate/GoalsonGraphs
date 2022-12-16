@@ -6,4 +6,4 @@ from pyvis.network import Network
 
 HtmlFile = open(f'index.html','r',encoding='utf-8')
 
-components.html(HtmlFile.read(),width=600)
+components.html(HtmlFile.read(),width=600,height=1000)
