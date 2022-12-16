@@ -52,6 +52,79 @@
     <body>
         <div class="card" style="width: 100%">
             
+                <div id="select-menu" class="card-header">
+                    <div class="row no-gutters">
+                        <div class="col-10 pb-2">
+                            <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="selectNode([value]);"
+                            id="select-node"
+                            placeholder="Select node..."
+                            >
+                                <option selected>Select a Node by ID</option>
+                                
+                                    <option value="Lionel Messi">Lionel Messi</option>
+                                
+                                    <option value="Angel Di Maria">�ngel Di Mar�a</option>
+                                
+                                    <option value="Lionel Messi (pen)">Lionel Messi (pen)</option>
+                                
+                                    <option value="Leandro Paredes">Leandro Paredes</option>
+                                
+                                    <option value="Papu Gomez">Papu G�mez</option>
+                                
+                                    <option value="Lautaro Martinez">Lautaro Mart�nez</option>
+                                
+                                    <option value="Rodrigo De Paul">Rodrigo De Paul</option>
+                                
+                                    <option value="Nicolas Tagliafico">Nicol�s Tagliafico</option>
+                                
+                                    <option value="Lisandro Mart�nez">Lisandro Mart�nez</option>
+                                
+                                    <option value="Nicolas Otamendi">Nicol�s Otamendi</option>
+                                
+                                    <option value="Nahuel Molina">Nahuel Molina</option>
+                                
+                                    <option value="Enzo Fernandez">Enzo Fern�ndez</option>
+                                
+                                    <option value="Marcos Acuua">Marcos Acu�a</option>
+                                
+                                    <option value="Julian Alvarez">Juli�n �lvarez</option>
+                                
+                                    <option value="Cesar Montes">C�sar Montes</option>
+                                
+                                    <option value="Luis Ch�vez">Luis Ch�vez</option>
+                                
+                                    <option value="Alexis Vega">Alexis Vega</option>
+                                
+                                    <option value="Erick Guti�rrez">Erick Guti�rrez</option>
+                                
+                                    <option value="Hirving Lozano">Hirving Lozano</option>
+                                
+                                    <option value="H�ctor Moreno">H�ctor Moreno</option>
+                                
+                                    <option value="Alexis Mac Allister">Alexis Mac Allister</option>
+                                
+                                    <option value="Thiago Almada">Thiago Almada</option>
+                                
+                                    <option value="Exequiel Palacios">Exequiel Palacios</option>
+                                
+                                    <option value="Germ�n Pezzella">Germ�n Pezzella</option>
+                                
+                                    <option value="Gonzalo Montiel">Gonzalo Montiel</option>
+                                
+                                    <option value="Paulo Dybala">Paulo Dybala</option>
+                                
+                                    <option value="Cristian Romero">Cristian Romero</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-2 pb-2">
+                            <button type="button" class="btn btn-primary btn-block" onclick="neighbourhoodHighlight({nodes: []});">Reset Selection</button>
+                        </div>
+                    </div>
+                </div>
             
             <div id="mynetwork" class="card-body"></div>
         </div>
