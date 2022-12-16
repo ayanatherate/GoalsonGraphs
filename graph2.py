@@ -46,8 +46,8 @@ for node in got_net.nodes:
 
 
 path = '/tmp'
-got_net.save_graph(f'{path}/pyvis_graph.html')
-HtmlFile = open(f'{path}/pyvis_graph.html', 'r', encoding='utf-8')
+got_net.save_graph('pyvis_graph.html')
+HtmlFile = open(f'pyvis_graph.html', 'r', encoding='utf-8')
 components.html(HtmlFile.read(), height=435)
 
      
