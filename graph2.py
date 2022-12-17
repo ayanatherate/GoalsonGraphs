@@ -14,7 +14,7 @@ from pyvis.network import Network
 
 
 
-title_html=f'<h1 style="font-family:Calibri; color:#DEF294; font-size: 50px;">Graph Network Analysis (WC 2022 finalists) : Argentina vs France</h1>'
+title_html=f'<h1 style="font-family:Calibri; color:#DEF294; font-size: 30px;">Graph Network Analysis (WC 2022 finalists), all Goals and Chances created : Argentina vs France</h1>'
 st.markdown(title_html, unsafe_allow_html=True)
 
 df=pd.read_csv(r"https://raw.githubusercontent.com/ayanatherate/WC2022finals.github.io/main/Argentina_WC2022.csv")
