@@ -13,7 +13,7 @@ import networkx as nx
 from pyvis.network import Network
 
 
-ide_streamlit_style2= '''
+hide_streamlit_style2= '''
 <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
