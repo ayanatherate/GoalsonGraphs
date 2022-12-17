@@ -34,7 +34,7 @@ st.markdown(hide_streamlit_style2, unsafe_allow_html=True)
 page_bg_img = '''
 <style>
 .stApp {
-background-image: url("https://www.solidbackgrounds.com/images/7680x4320/7680x4320-blue-violet-solid-color-background.jpg");
+background-image: url("https://wallpaperaccess.com/full/1092593.png");
 background-size: cover;
 }
 </style>
