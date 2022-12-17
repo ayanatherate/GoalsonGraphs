@@ -42,9 +42,7 @@ background-size: cover;
 st.markdown(page_bg_img, unsafe_allow_html=True)
 title_html=f'<h1 style="font-family:Calibri; color:#DEF294; font-size: 30px;">Graph Network Analysis of WC 2022 finalists, all Goals and Chances created : Argentina & France</h1>'
 st.markdown(title_html, unsafe_allow_html=True)
-st.write(print())
-st.write(print())
-st.write(print())
+st.write()
 st.caption('Why this Project?')
 st.write('1) Visualization is cool.')
 st.write('2) (1) again but let me explain a bit in detail. The following Network graphs tries to visualize the relationships and the consecutive linkages between the players of each team, as an average of all Goal Chances (Shots/Goals) created during their World Cup journey, so far.(up untill the Final on Sunday).')
