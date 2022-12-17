@@ -34,7 +34,7 @@ st.markdown(hide_streamlit_style2, unsafe_allow_html=True)
 page_bg_img = '''
 <style>
 .stApp {
-background-image: url("https://static.vecteezy.com/system/resources/previews/007/492/570/non_2x/sport-background-illustration-suitable-for-banners-and-more-free-vector.jpg");
+background-image: url("https://www.solidbackgrounds.com/images/7680x4320/7680x4320-blue-violet-solid-color-background.jpg");
 background-size: cover;
 }
 </style>
