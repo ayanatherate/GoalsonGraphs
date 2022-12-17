@@ -46,7 +46,7 @@ st.write()
 caption1='Why this Project?'
 write1='1) Visualization is cool.'
 write2='2) (1) again but let me explain a bit in detail. The following Network graphs tries to visualize the relationships and the consecutive linkages between the players of each team, as an average of all Goal Chances (Shots/Goals) created during their World Cup journey, so far.(up untill the Final on Sunday).'
-writeup1_html=f'<h3 style="font-family:Calibri; color:#DEF294; font-size: 10px;">{caption}<br>{write1}<br>{write2}</h3>'
+writeup1_html=f'<h3 style="font-family:Calibri; color:#DEF294; font-size: 10px;">{caption1}<br>{write1}<br>{write2}</h3>'
 st.markdown(writeup1_html, unsafe_allow_html=True)
 st.write()
 st.caption('How to view these Graphs.')
