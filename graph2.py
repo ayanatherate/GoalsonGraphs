@@ -16,7 +16,7 @@ df=pd.read_csv(r"https://raw.githubusercontent.com/ayanatherate/WC2022finals.git
 dff=pd.read_csv(r"https://raw.githubusercontent.com/ayanatherate/WC2022finals.github.io/main/France_WC2022.csv")
 
 G = nx.from_pandas_edgelist(df, 'Player', 'Assists', 'xG')
-G1 = nx.from_pandas_edgelist(df, 'Player', 'Player.1', 'xG')
+G1 = nx.from_pandas_edgelist(dff, 'Player', 'Player.1', 'xG')
 
 got_net = Network(height="750px", width="100%", bgcolor="#222222", font_color="white")
 got_net1 = Network(height="750px", width="100%", bgcolor="#222222", font_color="white")
