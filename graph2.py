@@ -40,13 +40,13 @@ background-size: cover;
 </style>
 '''
 st.markdown(page_bg_img, unsafe_allow_html=True)
-title_html=f'<h1 style="font-family:Calibri; color:#DEF294; font-size: 30px;">Graph Network Analysis of WC 2022 finalists, all Goals and Chances created : Argentina & France</h1>'
+title_html=f'<h1 style="font-family:Calibri; color:#DEF294; font-size: 30px;">Graph Networks of WC 2022 finalists, all Goals and Chances created : Argentina & France</h1>'
 st.markdown(title_html, unsafe_allow_html=True)
 st.write()
 
 caption1='Why this Project?'
 write1='1) Visualizing Data is cool.'
-write2='2) (1) again but let me explain a bit in detail. The following Network graphs tries to visualize the relationships and the consecutive linkages between the players of each team, as an average of all Goal Chances (Shots/Goals) created during their World Cup journey, so far.(up untill the Final on Sunday).'
+write2='2) (1) again but let me explain a bit in detail. The following Network graphs tries to visualize the relationships and the consecutive linkages between the players of each team, as an average of all Goal Chances (Shots/Shots on Goal/Goals) created during their World Cup journey, so far.(up untill the Final on Sunday).'
 writeup1_html=f'<h3 style="font-family:Calibri; color:#DBEDEE; font-size: 15px;">{caption1}<br><br>{write1}<br>{write2}</h3>'
 st.markdown(writeup1_html, unsafe_allow_html=True)
 
