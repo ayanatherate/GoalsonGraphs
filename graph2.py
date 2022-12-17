@@ -115,7 +115,7 @@ writeup2_html=f'<h3 style="font-family:Calibri; color:#AAC2EA; font-size: 25px;"
 st.markdown(writeup2_html, unsafe_allow_html=True)
 components.html(HtmlFile1.read(), height=735,width=735)
 
-writeup2_html='<a href="https://fbref.com/en/squads/b1b36dcd/France-Men-Stats ;style="font-color:white;"> Data Scraped from Fbref.com website </a>'
+writeup2_html='<a style="font-color:white;href="https://fbref.com/en/squads/b1b36dcd/France-Men-Stats"> Data Scraped from Fbref.com website </a>'
 st.markdown(writeup2_html, unsafe_allow_html=True)
 
 
