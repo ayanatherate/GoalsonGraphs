@@ -45,18 +45,20 @@ st.markdown(title_html, unsafe_allow_html=True)
 st.write()
 
 caption1='Why this Project?'
-write1='1) Visualization is cool.'
+write1='1) Visualizing Data is cool.'
 write2='2) (1) again but let me explain a bit in detail. The following Network graphs tries to visualize the relationships and the consecutive linkages between the players of each team, as an average of all Goal Chances (Shots/Goals) created during their World Cup journey, so far.(up untill the Final on Sunday).'
 writeup1_html=f'<h3 style="font-family:Calibri; color:#DBEDEE; font-size: 15px;">{caption1}<br><br>{write1}<br>{write2}</h3>'
 st.markdown(writeup1_html, unsafe_allow_html=True)
 
 st.write()
-caption2='How to view these Graphs.'
-write3='The Graphs are interactive. So you can click on any bubble inside the graphs to view the nearest neighbors associated with each player. For example, Lionel Messi has Dybala, Otamendi, Di Maria & others as neighbors in the graph. That means, everytime a Goal Chance was created by Messi, he was linked with the players that are in his nwighbourhood.'
+caption2='What exactly are these graph networks?'
+write3='The Graphs are interactive. So you can click on any bubble inside the graphs to view the nearest neighbors associated with each player. For example, Lionel Messi has Dybala, Otamendi, Di Maria & others as neighbors in the graph. That means, everytime a Goal Chance was created by Messi, he was linked with either or more of the players that are in his neighbourhood.'
 write4='It goes without saying that Players (nodes) in the graph with the maximum number of edges connected to it have been the players with the most number of Goal Chances created. More often than not, they are much centrallized in the Graph Structure.'
 writeup2_html=f'<h3 style="font-family:Calibri; color:#DBEDEE; font-size: 15px;">{caption2}<br><br>{write3}<br>{write4}</h3>'
 st.markdown(writeup2_html, unsafe_allow_html=True)
 st.write()
+writeup2_html=f'<h3 style="font-family:Calibri; color:#DEF294; font-size: 20px;">Go Ahead, Zoom In and play around with the Visualizations!</h3>'
+st.markdown(writeup2_html, unsafe_allow_html=True)
 
 
 df=pd.read_csv(r"https://raw.githubusercontent.com/ayanatherate/WC2022finals.github.io/main/Argentina_WC2022.csv")
@@ -104,7 +106,13 @@ except:
     path = '/html_files'
     got_net.save_graph(f'{path}/pyvis_graph.html')
     HtmlFile = open(f'{path}/pyvis_graph.html', 'r', encoding='utf-8')
+    
+writeup2_html=f'<h3 style="font-family:Calibri; color:#DEF294; font-size: 25px;">ARGENTINA</h3>'
+st.markdown(writeup2_html, unsafe_allow_html=True)
 components.html(HtmlFile.read(), height=735,width=735)
+
+writeup2_html=f'<h3 style="font-family:Calibri; color:#DEF294; font-size: 25px;">FRANCE</h3>'
+st.markdown(writeup2_html, unsafe_allow_html=True)
 components.html(HtmlFile1.read(), height=735,width=735)
 
 
