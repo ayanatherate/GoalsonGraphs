@@ -57,7 +57,7 @@ write4='It goes without saying that Players (nodes) in the graph with the maximu
 writeup2_html=f'<h3 style="font-family:Calibri; color:#DBEDEE; font-size: 15px;">{caption2}<br><br>{write3}<br>{write4}</h3>'
 st.markdown(writeup2_html, unsafe_allow_html=True)
 st.write()
-writeup2_html=f'<h3 style="font-family:Calibri; color:#DEF294; font-size: 20px;">Go Ahead, Zoom In and play around with the Visualizations!</h3>'
+writeup2_html=f'<h3 style="font-family:Calibri; color:#DEF294; font-size: 20px;">Go Ahead, Zoom In and play around with the Visualizations! Best Viewed on Medium Sized to Larger Screens.</h3>'
 st.markdown(writeup2_html, unsafe_allow_html=True)
 
 
@@ -107,11 +107,11 @@ except:
     got_net.save_graph(f'{path}/pyvis_graph.html')
     HtmlFile = open(f'{path}/pyvis_graph.html', 'r', encoding='utf-8')
     
-writeup2_html=f'<h3 style="font-family:Calibri; color:#DEF294; font-size: 25px;">ARGENTINA</h3>'
+writeup2_html=f'<h3 style="font-family:Calibri; color:#132C57; font-size: 25px;">ARGENTINA</h3>'
 st.markdown(writeup2_html, unsafe_allow_html=True)
 components.html(HtmlFile.read(), height=735,width=735)
 
-writeup2_html=f'<h3 style="font-family:Calibri; color:#DEF294; font-size: 25px;">FRANCE</h3>'
+writeup2_html=f'<h3 style="font-family:Calibri; color:#132C57; font-size: 25px;">FRANCE</h3>'
 st.markdown(writeup2_html, unsafe_allow_html=True)
 components.html(HtmlFile1.read(), height=735,width=735)
 
