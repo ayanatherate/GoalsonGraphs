@@ -13,8 +13,34 @@ import networkx as nx
 from pyvis.network import Network
 
 
+ide_streamlit_style2= '''
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+.viewerBadge_container__1QSob{visibility:hidden;}
+.viewerBadge_link__1S137{visibility:hidden;}
+.css-1rs6os {visibility: hidden;}
+.css-17ziqus {visibility: hidden;}
+.css-1aumxhk {
+background-color: #011839;
+background-image: none;
+color: #ffffff
+}
+</style>
+'''
+st.markdown(hide_streamlit_style2, unsafe_allow_html=True) 
 
-title_html=f'<h1 style="font-family:Calibri; color:#DEF294; font-size: 30px;">Graph Network Analysis (WC 2022 finalists), all Goals and Chances created : Argentina vs France</h1>'
+page_bg_img = '''
+<style>
+.stApp {
+background-image: url("https://static.vecteezy.com/system/resources/previews/007/492/570/non_2x/sport-background-illustration-suitable-for-banners-and-more-free-vector.jpg");
+background-size: cover;
+}
+</style>
+'''
+st.markdown(page_bg_img, unsafe_allow_html=True)
+title_html=f'<h1 style="font-family:Calibri; color:#DEF294; font-size: 30px;">Graph Network Analysis of WC 2022 finalists, all Goals and Chances created : Argentina vs France</h1>'
 st.markdown(title_html, unsafe_allow_html=True)
 
 df=pd.read_csv(r"https://raw.githubusercontent.com/ayanatherate/WC2022finals.github.io/main/Argentina_WC2022.csv")
