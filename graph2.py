@@ -107,11 +107,11 @@ except:
     got_net.save_graph(f'{path}/pyvis_graph.html')
     HtmlFile = open(f'{path}/pyvis_graph.html', 'r', encoding='utf-8')
     
-writeup2_html=f'<h3 style="font-family:Calibri; color:#132C57; font-size: 25px;">ARGENTINA</h3>'
+writeup2_html=f'<h3 style="font-family:Calibri; color:#AAC2EA; font-size: 25px;">ARGENTINA</h3>'
 st.markdown(writeup2_html, unsafe_allow_html=True)
 components.html(HtmlFile.read(), height=735,width=735)
 
-writeup2_html=f'<h3 style="font-family:Calibri; color:#132C57; font-size: 25px;">FRANCE</h3>'
+writeup2_html=f'<h3 style="font-family:Calibri; color:#AAC2EA; font-size: 25px;">FRANCE</h3>'
 st.markdown(writeup2_html, unsafe_allow_html=True)
 components.html(HtmlFile1.read(), height=735,width=735)
 
