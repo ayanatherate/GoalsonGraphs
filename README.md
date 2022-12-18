@@ -3,8 +3,8 @@ Network Visualization of all Goals &amp; Goal Chances created by WC2022 finalist
 Link to Streamlit App:
 <a href='https://wcxgnetworks.streamlit.app/'> Click here </a>
 <br>
-<h1> Data </h1>
-<a href="https://fbref.com/en/squads/b1b36dcd/France-Men-Stats">  Data Source </a>
+<h1> Data Source</h1>
+<a href="https://fbref.com/en/squads/b1b36dcd/France-Men-Stats">  Fbref.com </a>
 <br>
 <br>
 <h1> Argentina </h1>
