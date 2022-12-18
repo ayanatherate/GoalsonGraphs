@@ -35,14 +35,14 @@ background-size: cover;
 </style>
 '''
 st.markdown(page_bg_img, unsafe_allow_html=True)
-title_html=f'<h1 style="font-family:Calibri; color:#DEF294; font-size: 30px;">Graph Network Visualization of WC 2022 finalists, all Goals and Chances created : Argentina & France</h1>'
+title_html=f'<h1 style="font-family:Calibri; color:#DEF294; font-size: 30px;">Graph Network Visualization of WC 2022 finalists, all Goals and Chances created so far: Argentina & France</h1>'
 st.markdown(title_html, unsafe_allow_html=True)
 st.write()
 
 
 
 caption2='What exactly are these graph networks?'
-write3='The Graphs are interactive. So you can click on any bubble inside the graphs to view the nearest neighbors associated with each player. For example, Lionel Messi has Dybala, Otamendi, Di Maria & others as neighbors in the graph. That means, everytime a Goal Chance (includes Shots, SHots on Goals & Goals) was created by Messi, he was linked with either or more of the players that are in his neighbourhood.'
+write3='The Graphs are interactive. So you can click on any bubble inside the graphs to view the nearest neighbors associated with each player. For example, Lionel Messi has Dybala, Otamendi, Di Maria & others as neighbors in the graph. That means, everytime a Goal Chance (includes Shots, SHots on Goals & Goals) was created by Messi in this World Cup, he was linked with either or more of the players that are in his neighbourhood.'
 write4='It goes without saying that Players (nodes) in the graph with the maximum number of edges connected to it have been the players with the most number of Goal Chances & Goals created. More often than not, they are much centrallized in the Graph Structure.'
 writeup2_html=f'<h3 style="font-family:Calibri; color:#DBEDEE; font-size: 15px;">{caption2}<br><br>{write3}<br>{write4}</h3>'
 st.markdown(writeup2_html, unsafe_allow_html=True)
