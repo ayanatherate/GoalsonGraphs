@@ -1,6 +1,5 @@
 # WC2022_finalists_network_viz
 Network Visualization of all Goals &amp; Goal Chances created by WC2022 finalists, Argentina vs France.
-
 Link to Streamlit App:
 <a href='https://wcxgnetworks.streamlit.app/'> Click here </a>
 <br>
