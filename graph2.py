@@ -35,7 +35,7 @@ background-size: cover;
 </style>
 '''
 st.markdown(page_bg_img, unsafe_allow_html=True)
-title_html=f'<h1 style="font-family:Calibri; color:#DEF294; font-size: 30px;">Graph Network Visualization of WC 2022 finalists, all Goals and Chances created so far: Argentina & France</h1>'
+title_html=f'<h1 style="font-family:Calibri; color:#DEF294; font-size: 30px;">Graph Network Visualization of WC 2022 finalists, all Goals and Chances created so far till the Final: Argentina & France</h1>'
 st.markdown(title_html, unsafe_allow_html=True)
 st.write()
 
