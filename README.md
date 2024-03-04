@@ -10,6 +10,8 @@ Link to Streamlit App:
 
 <h2> Embedding Space (Node2Vec) visualization of Argentina Players with respect to their individual and shared (with other players) contributions during goals and goal chances.</h2>
 <h3> For the Analysis/Embedding procedure checkout:</h3>
+<br>
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17MNGYB3bR4p7fZvjypJgt3RIeLuINSFv)
 
 
