@@ -11,7 +11,8 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17MNGYB3bR4p7fZvjypJgt3RIeLuINSFv)
 
 
-<img width="800" alt="arg_embedding" src="https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/e772d083-1208-4f6f-adb9-89d2fd6f08f1">
+![image](https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/26802640-a3ba-4f94-b089-19c5cf23b68c)
+
 <h4> Same Embedding space visualization with bubble size respresenting Weighted Goal & Assists score</h4>
 <img width="800" alt="f3a4g4" src="https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/8c345570-88b5-4536-ad2a-a4ecdb6fb651">
 
