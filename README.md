@@ -4,7 +4,7 @@
 <br>
 <br>
 
-<h2> Embedding Space (Node2Vec) visualization of Argentina Players with respect to their individual and shared (with other players) linkages during goals and goal chances.</h2>
+<h2> Embedding Space (BFS-focused Node2Vec) visualization of Argentina Players with respect to their individual and shared (with other players) linkages during goals and goal chances.</h2>
 <h3> For the Analysis/Embedding procedure checkout:</h3>
 <br>
 
@@ -19,19 +19,20 @@
 ![newplot](https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/08c8cda8-4d1b-48b6-8556-9291dc48c30b)
 
 
-<h2> Embedding Space (BFS-focused Node2Vec) visualization of France Players with respect to their individual and shared (with other players) linkages during goals and goa![Uploading newplot.png…]()
-l chances.</h2>
+<h2> Embedding Space (BFS-focused Node2Vec) visualization of France Players with respect to their individual and shared (with other players) linkages during goals and goal chances.</h2>
 <h3> For the Analysis/Embedding procedure checkout:</h3>
 <br>
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ffcg6Rg_FLhf0EWJ6qAzeyaZ-2mQzotq?usp=sharing)
 
 
-<img width="800" alt="france_embedding" src="https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/cd18d768-8938-4a10-92af-18a278ca6fb4">
+![newplot (2)](https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/7058d160-7b5d-4ea5-ad13-c0c802b7d21e)
+
 
 <h4> Same Embedding space visualization with bubble size respresenting Weighted Goal & Assists score</h4>
 
-<img width="800" alt="fra_3" src="https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/0097691a-cd95-4e1c-995c-7c069ccb84e3">
+![newplot (3)](https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/ac687620-a270-4450-abe5-c42ffdd4e9ed)
+
 
 <h1>Interactive Graph Network Visualization of all Goals &amp; Goal Chances created by WC2022 finalists, Argentina vs France.</h1>
 <h2>Link to Streamlit App:</h2>
