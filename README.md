@@ -1,8 +1,4 @@
 
-<h2>Graph Network Visualization of all Goals &amp; Goal Chances created by WC2022 finalists, Argentina vs France.</h2>
-<h2>Link to Streamlit App:</h2>
-<a href='https://wcxgnetworks.streamlit.app/'> Click here </a>
-<br>
 <h1> Data Source</h1>
 <a href="https://fbref.com/en/squads/b1b36dcd/France-Men-Stats">  Fbref.com </a>
 <br>
@@ -32,8 +28,11 @@
 
 <img width="800" alt="fra_3" src="https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/0097691a-cd95-4e1c-995c-7c069ccb84e3">
 
-
-<h1> Goals and Goal chances between players, represented as Graphs (Snapshots from Streamlit App)</h1>
+<h1>Interactive Graph Network Visualization of all Goals &amp; Goal Chances created by WC2022 finalists, Argentina vs France.</h1>
+<h2>Link to Streamlit App:</h2>
+<a href='https://wcxgnetworks.streamlit.app/'> Click here </a>
+<br>
+<h2> Goals and Goal chances between players, represented as Graphs (Snapshots from Streamlit App)</h2>
 <h2> Argentina </h2>
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/59755186/208282474-3eff4b70-9799-4076-b2b1-49eb0836f4bd.png">
 <br>
