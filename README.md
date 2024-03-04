@@ -13,3 +13,9 @@ Link to Streamlit App:
 <h1> France </h1>
 <img width="431" alt="image" src="https://user-images.githubusercontent.com/59755186/208282486-6956554b-d86e-4439-8483-25e4e45dd692.png">
 
+<br>
+
+<h2> Embedding Spoace (Node2Vec) visualization of Argentina Players with respect to their individual and shared (with other players) contributions during goal chances.</h2>
+
+
+<img width="582" alt="arg_embedding" src="https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/e772d083-1208-4f6f-adb9-89d2fd6f08f1">
