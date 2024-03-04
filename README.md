@@ -14,9 +14,11 @@
 ![image](https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/26802640-a3ba-4f94-b089-19c5cf23b68c)
 
 <h4> Same Embedding space visualization with bubble size respresenting Weighted Goal & Assists score</h4>
-<img width="800" alt="f3a4g4" src="https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/8c345570-88b5-4536-ad2a-a4ecdb6fb651">
+![newplot](https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/08c8cda8-4d1b-48b6-8556-9291dc48c30b)
 
-<h2> Embedding Space (Node2Vec) visualization of France Players with respect to their individual and shared (with other players) linkages during goals and goal chances.</h2>
+
+<h2> Embedding Space (Node2Vec) visualization of France Players with respect to their individual and shared (with other players) linkages during goals and goa![Uploading newplot.png…]()
+l chances.</h2>
 <h3> For the Analysis/Embedding procedure checkout:</h3>
 <br>
 
