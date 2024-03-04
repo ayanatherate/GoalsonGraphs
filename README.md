@@ -20,4 +20,4 @@ Link to Streamlit App:
 
 <img width="800" alt="arg_embedding" src="https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/e772d083-1208-4f6f-adb9-89d2fd6f08f1">
 <h4> Same Embedding space visualization with bubble size respresenting Weighted Goal & Assists score</h4>
-<img width="544" alt="f3a4g4" src="https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/8c345570-88b5-4536-ad2a-a4ecdb6fb651">
+<img width="800" alt="f3a4g4" src="https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/8c345570-88b5-4536-ad2a-a4ecdb6fb651">
