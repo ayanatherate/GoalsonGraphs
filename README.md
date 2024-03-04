@@ -14,6 +14,7 @@
 ![image](https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/26802640-a3ba-4f94-b089-19c5cf23b68c)
 
 <h4> Same Embedding space visualization with bubble size respresenting Weighted Goal & Assists score</h4>
+
 ![newplot](https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/08c8cda8-4d1b-48b6-8556-9291dc48c30b)
 
 
