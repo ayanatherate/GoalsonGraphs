@@ -1,6 +1,6 @@
 
 <h2>Graph Network Visualization of all Goals &amp; Goal Chances created by WC2022 finalists, Argentina vs France.</h2>
-Link to Streamlit App:
+<h2>Link to Streamlit App:</h2>
 <a href='https://wcxgnetworks.streamlit.app/'> Click here </a>
 <br>
 <h1> Data Source</h1>
@@ -8,7 +8,7 @@ Link to Streamlit App:
 <br>
 <br>
 
-<h2> Embedding Space (Node2Vec) visualization of Argentina Players with respect to their individual and shared (with other players) contributions during goals and goal chances.</h2>
+<h2> Embedding Space (Node2Vec) visualization of Argentina Players with respect to their individual and shared (with other players) linkages during goals and goal chances.</h2>
 <h3> For the Analysis/Embedding procedure checkout:</h3>
 <br>
 
