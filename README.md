@@ -9,9 +9,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17MNGYB3bR4p7fZvjypJgt3RIeLuINSFv)
 
-<br>
 <h3>Features</h3><br>
-
 <h4>
 This can help indicate communities of Attack clusters, that is coordination of player communities of high attacking possibilities. 
 For example:
@@ -21,7 +19,7 @@ This indicates the coordintion of Julian Alvarez with defenders (possibly on the
 On the contrary, the presence of Lionel Messi as a solo forward in the embedding space, indicates his solo involvement in the attacking third during his shots and goal-creation chances. <br>
 That along, presence of Lautaro Martinez in the embedding space close to midfielders indicates his coordination with mid-fielders in majority of his goal and shot-creation chances. <br>
 
-Both the network graphs and the embedding analysis can be used for a robust analysis of player positions and coordinations during attacks.
+Both the network graphs and the embedding analysis can be used for a robust analysis of player positions and coordinations during attacks. </h4>
 <br> <br>
 
 ![newplot (1)](https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/8c0e3ea4-9e59-496d-9b10-f32d1ab69aa0)
