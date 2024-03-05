@@ -7,7 +7,15 @@
 <h2> Embedding Space (BFS-focused Node2Vec) visualization of Argentina Players with respect to their individual and shared (with other players) linkages during goals and goal chances.</h2>
 <h3> For the Analysis/Embedding procedure checkout:</h3>
 <br>
+Features: This can help indicate communities of Attack clusters, that is coordination of player communities of high attacking possibilities. <br>
+For example:
+There is a concentration of players in the embedding space in the graph of Argentina between Julian Alvarez (Forward), Nikolas Taglafico (defence) and Lisandro Martinez (defence) <br>
+This indicates the coordintion of Julian Alvarez with defenders (possibly on the wing-back side) during majority of his shots and goal creation chances. <br>
+On the contrary, the presence of Lionel Messi as a solo forward in the embedding space, indicates his solo involvement in the attacking third during his shots and goal-creation chances. <br>
+That along, presence of Lautaro Martinez in the embedding space close to midfielders indicates his coordination with mid-fielders in majority of his goal and shot-creation chances. <br>
 
+Both the network graphs and the embedding analysis can be used for a robust analysis of player positions and coordinations during attacks.
+<br> <br>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17MNGYB3bR4p7fZvjypJgt3RIeLuINSFv)
 
 
