@@ -36,12 +36,13 @@ Both the network graphs and the embedding analysis can be used for a robust anal
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ffcg6Rg_FLhf0EWJ6qAzeyaZ-2mQzotq?usp=sharing)
 
 
-![newplot (2)](https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/7058d160-7b5d-4ea5-ad13-c0c802b7d21e)
+![newplot (43)](https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/1634abcb-51dd-4a32-9595-6b5eb9101c4a)
 
 
 <h4> Same Embedding space visualization with bubble size respresenting Weighted Goal & Assists score</h4>
 
-![newplot (3)](https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/ac687620-a270-4450-abe5-c42ffdd4e9ed)
+![newplot (44)](https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/0191c849-862f-429c-8980-91623fadae0d)
+
 
 
 <h1>Interactive Graph Network Visualization of all Goals &amp; Goal Chances created by WC2022 finalists, Argentina vs France.</h1>
