@@ -6,18 +6,23 @@
 
 <h2> Embedding Space (BFS-focused Node2Vec) visualization of Argentina Players with respect to their individual and shared (with other players) linkages during goals and goal chances.</h2>
 <h3> For the Analysis/Embedding procedure checkout:</h3>
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17MNGYB3bR4p7fZvjypJgt3RIeLuINSFv)
+
 <br>
-Features: This can help indicate communities of Attack clusters, that is coordination of player communities of high attacking possibilities. <br>
+<h3>Features</h3><br>
+
+<h4>
+This can help indicate communities of Attack clusters, that is coordination of player communities of high attacking possibilities. 
 For example:
-There is a concentration of players in the embedding space in the graph of Argentina between Julian Alvarez (Forward), Nikolas Taglafico (defence) and Lisandro Martinez (defence) <br>
+There is a concentration of players in the embedding space in the graph of Argentina between Julian Alvarez (Forward), Nikolas Taglafico (defence) and Lisandro Martinez (defence). All these three players have been associated with
+high average goals and goal chances/assists created, as visible from the diameter of the bubbles in the second plot.<br>
 This indicates the coordintion of Julian Alvarez with defenders (possibly on the wing-back side) during majority of his shots and goal creation chances. <br>
 On the contrary, the presence of Lionel Messi as a solo forward in the embedding space, indicates his solo involvement in the attacking third during his shots and goal-creation chances. <br>
 That along, presence of Lautaro Martinez in the embedding space close to midfielders indicates his coordination with mid-fielders in majority of his goal and shot-creation chances. <br>
 
 Both the network graphs and the embedding analysis can be used for a robust analysis of player positions and coordinations during attacks.
 <br> <br>
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17MNGYB3bR4p7fZvjypJgt3RIeLuINSFv)
-
 
 ![newplot (1)](https://github.com/ayanatherate/GoalsonGraphs/assets/59755186/8c0e3ea4-9e59-496d-9b10-f32d1ab69aa0)
 
