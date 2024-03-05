@@ -8,9 +8,10 @@
 <h3> For the Analysis/Embedding procedure checkout:</h3>
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17MNGYB3bR4p7fZvjypJgt3RIeLuINSFv)
-<h3>Features</h3>
+<h3>Features: </h3>
 <h4>
-This can help indicate communities of Attack clusters, that is coordination of player communities of high attacking possibilities. <br><br>
+This can help indicate communities of Attack clusters, that is coordination of player communities of high attacking possibilities. Also, this can help indicate linkages between players during high-attack chances which can help
+in team planning and coordination.<br><br>
 For example: <br><br>
 There is a concentration of players in the embedding space in the graph of Argentina between Julian Alvarez (Forward), Nikolas Taglafico (defence) and Lisandro Martinez (defence). All these three players have been associated with
 high average goals and goal chances/assists created, as visible from the diameter of the bubbles in the second plot.
